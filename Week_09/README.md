@@ -13,3 +13,7 @@
         Q.矩阵陈发的顺序安排
         Q.最优二叉查找树
 2.字符串算法
+
+p1.不同路径 2 （ https://leetcode-cn.com/problems/unique-paths-ii/ ）这道题目的状态转移方程。
+    f[0] = obstacleGrid[0][0] == 0 ? 1 : 0;
+    f[j] += f[j - 1];
